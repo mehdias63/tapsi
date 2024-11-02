@@ -3,15 +3,31 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				primaray: '#ff5722',
-				secondary-light: '#fff6f2',
-				secondary-dark: '#ffa589',
+				orange: '#ff5722',
+				'orange-light': '#fff6f2',
+				'orange-dark': '#ffa589',
 				navbar: '#f8f8f8',
-				'headings': '#000',
-				'body': '#333333',
-				'white': '#fff',
+				headings: '#000',
+				body: '#333333',
+				white: '#fff',
+			},
+			fontSize: {
+				h1: [
+					'56px',
+					{
+						lineHeight: '56px',
+						fontWeight: 'bold',
+					},
+				],
+				h2: [
+					'40px',
+					{
+						lineHeight: '44px',
+						fontWeight: 'bold',
+					},
+				],
 			},
 		},
+		plugins: [],
 	},
-	plugins: [],
 }
